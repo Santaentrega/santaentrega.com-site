@@ -1,0 +1,31 @@
+SANTA ENTREGA — PACOTE DO SITE COM IMAGENS
+
+Conteúdo:
+- index.html
+- estilos.css
+- script.js
+- robots.txt
+- sitemap.xml
+- pasta imagens
+
+PUBLICAÇÃO NO CLOUDFLARE PAGES:
+1. Entre em Workers e Pages.
+2. Abra o projeto "santaentrega".
+3. Entre em Implantações.
+4. Escolha criar uma nova implantação por upload direto.
+5. Envie TODOS os arquivos e a pasta imagens mantendo esta estrutura.
+6. Publique e teste:
+   https://santaentrega.com.br
+   https://www.santaentrega.com.br
+
+CONTATOS CONFIGURADOS:
+Telefone: (11) 3331-4705
+WhatsApp: (11) 94781-8984
+Instagram: @staentrega
+Endereço: Av. Zelina, 444 — Vila Zelina — São Paulo/SP
+
+OBSERVAÇÃO:
+A logomarca ainda está representada provisoriamente pela letra S.
+
+ATUALIZAÇÃO DA LOGOMARCA
+A logomarca oficial foi incluída em imagens/logo-santa-entrega.jpg e já está aplicada no cabeçalho, rodapé e favicon do site.

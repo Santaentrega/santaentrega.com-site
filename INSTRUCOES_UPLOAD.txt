@@ -1,0 +1,22 @@
+SITE SANTA ENTREGA — ARQUIVOS PRONTOS
+
+1. Extraia este arquivo ZIP no computador.
+2. Abra a pasta santa_entrega_pronto_upload.
+3. Selecione TODOS os arquivos e a pasta "imagens".
+4. No GitHub, entre na raiz do repositório Santaentrega/santaentrega.com-site.
+5. Clique em Adicionar arquivo > Fazer upload de arquivos.
+6. Arraste o conteúdo selecionado para o GitHub.
+7. Confirme a substituição dos arquivos existentes e clique em Confirmar alterações.
+
+IMPORTANTE:
+- Não envie a pasta santa_entrega_pronto_upload inteira para dentro do repositório.
+- Envie o CONTEÚDO dela, mantendo a pasta "imagens".
+- A estrutura correta é:
+  index.html
+  estilos.css
+  script.js
+  robots.txt
+  sitemap.xml
+  imagens/
+
+Os caminhos das imagens foram conferidos e todas as imagens necessárias estão incluídas.
