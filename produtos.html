@@ -84,13 +84,21 @@
       margin-top: 30px;
       padding: 25px;
       border-radius: 18px;
-      background: #f7f7f7;
+      background: #fff7f1;
+    }
+
+    .preco-antigo {
+      font-size: 18px;
+      text-decoration: line-through;
+      color: #666;
+      margin-bottom: 5px;
     }
 
     .preco {
-      font-size: 32px;
+      font-size: 40px;
       font-weight: bold;
-      margin-bottom: 15px;
+      color: #ff6500;
+      margin-bottom: 10px;
     }
 
     .botao-compra {
@@ -101,18 +109,7 @@
       font-weight: bold;
       padding: 16px 26px;
       border-radius: 10px;
-      margin: 5px 8px 5px 0;
-    }
-
-    .botao-loja {
-      display: inline-block;
-      border: 2px solid #111;
-      color: #111;
-      text-decoration: none;
-      font-weight: bold;
-      padding: 14px 24px;
-      border-radius: 10px;
-      margin: 5px 0;
+      margin: 10px 8px 5px 0;
     }
 
     .conteudo-livro {
@@ -145,6 +142,11 @@
       padding: 25px;
       border-left: 5px solid #ff6500;
       background: #fff7f1;
+    }
+
+    .pix {
+      font-size: 20px;
+      word-break: break-all;
     }
 
     @media (max-width: 760px) {
@@ -184,33 +186,35 @@
 
     <div class="livro-info">
 
-      <div class="etiqueta">Livro • Santa Entrega</div>
+      <div class="etiqueta">E-book • Santa Entrega</div>
 
       <h1>Tecnologia Sem Complicação Após os 50</h1>
 
       <p class="subtitulo">
         Tecnologia explicada de forma simples, prática e sem complicação.
-        Um material desenvolvido especialmente para quem deseja aproveitar
-        melhor o celular, a internet e os recursos digitais do dia a dia.
+        Aprenda a usar melhor o celular, WhatsApp, internet e recursos digitais
+        com mais segurança, confiança e independência.
       </p>
 
       <p class="autor">Autor: Wagner Bissolotti</p>
 
       <div class="compra">
 
-       <div class="preco">R$ 39,90</div>
+        <div class="preco-antigo">Preço normal: R$ 39,90</div>
+        <div class="preco">R$ 9,90</div>
 
         <p>
-          O livro está em fase final de preparação. A venda pelo site será
-          disponibilizada inicialmente por PIX.
+          <strong>OFERTA DE LANÇAMENTO</strong><br>
+          Válida somente para os primeiros 50 e-books vendidos.
+        </p>
+
+        <p>
+          Produto digital. Após o pagamento, envie o comprovante pelo WhatsApp
+          da Santa Entrega para receber seu e-book.
         </p>
 
         <a class="botao-compra" href="#comprar">
-          Quero comprar pelo PIX
-        </a>
-
-        <a class="botao-loja" href="#loja-fisica">
-          Comprar na loja física
+          QUERO MEU E-BOOK POR R$ 9,90
         </a>
 
       </div>
@@ -221,65 +225,91 @@
 
   <section class="conteudo-livro">
 
-    <h2>Tecnologia pode ser simples.</h2>
+    <h2>Tecnologia pode ser simples em qualquer idade.</h2>
 
     <p>
-      Este livro foi desenvolvido para ajudar pessoas com mais de 50 anos
-      a compreender e utilizar a tecnologia de maneira prática, segura
-      e independente.
+      Este livro foi criado para ajudar quem deseja aprender tecnologia
+      de maneira simples, segura e no próprio ritmo.
     </p>
 
     <div class="beneficios">
 
       <div class="beneficio">
         <h3>📱 Passo a passo</h3>
-        <p>Explicações claras para acompanhar no seu próprio ritmo.</p>
+        <p>Explicações claras para acompanhar sem pressa.</p>
       </div>
 
       <div class="beneficio">
         <h3>🔐 Mais segurança</h3>
-        <p>Orientações para usar recursos digitais com mais tranquilidade.</p>
+        <p>Aprenda a reconhecer situações suspeitas e usar a tecnologia com mais confiança.</p>
       </div>
 
       <div class="beneficio">
-        <h3>💡 Sem complicação</h3>
-        <p>Linguagem simples e objetiva, sem excesso de termos técnicos.</p>
+        <h3>💡 Sem palavras difíceis</h3>
+        <p>Conteúdo direto, simples e fácil de consultar sempre que precisar.</p>
       </div>
 
     </div>
 
   </section>
 
-  <section id="comprar" class="aviso">
+  <section class="conteudo-livro">
 
-    <h2>Compra pelo site</h2>
+    <h2>Para quem é este e-book?</h2>
 
     <p>
-      Em breve você poderá solicitar o livro diretamente por esta página
-      e realizar o pagamento via PIX.
+      Para pessoas que querem usar melhor o celular, WhatsApp e internet.
+      Também é uma opção de presente para pais e avós que desejam ter
+      mais autonomia e confiança com a tecnologia.
     </p>
 
   </section>
-<section id="comprar" class="conteudo-livro">
-  <h2>Comprar pelo PIX</h2>
 
-  <p><strong>Valor: R$ 39,90</strong></p>
+  <section id="comprar" class="aviso">
 
-  <p>Faça o pagamento usando a chave PIX abaixo:</p>
+    <h2>Comprar pelo PIX</h2>
 
-  <p><strong>Chave PIX:</strong> 77c0396d-a85d-4f3e-920a-c288ecf7129e</p>
-  
-
-  <p>Após o pagamento, envie o comprovante para a Santa Entrega. Depois da confirmação, você receberá o acesso ao e-book.</p><a class="botao-compra" href="https://wa.me/5511947818984?text=Olá%2C%20acabei%20de%20realizar%20o%20PIX%20do%20e-book.%20Segue%20o%20comprovante." target="_blank">Enviar comprovante pelo WhatsApp</a>
-</section>
-  <section id="loja-fisica" class="aviso">
-
-    <h2>Comprar pessoalmente</h2>
+    <p><strong>Preço normal:</strong> R$ 39,90</p>
 
     <p>
-      O livro também poderá ser adquirido diretamente no ponto físico
-      da Santa Entrega.
+      <strong>OFERTA DE LANÇAMENTO: R$ 9,90</strong><br>
+      Somente para os primeiros 50 e-books vendidos.
     </p>
+
+    <p>1. Faça o PIX de <strong>R$ 9,90</strong> usando a chave abaixo:</p>
+
+    <p class="pix">
+      <strong>Chave PIX:</strong><br>
+      77c0396d-a85d-4f3e-920a-c288ecf7129e
+    </p>
+
+    <p>2. Após o pagamento, clique no botão abaixo.</p>
+
+    <p>
+      3. Envie o comprovante pelo WhatsApp da Santa Entrega.
+      Depois da confirmação, você receberá o acesso ao e-book.
+    </p>
+
+    <a class="botao-compra"
+       href="https://wa.me/5511947818984?text=Olá%2C%20acabei%20de%20realizar%20o%20PIX%20de%20R%24%209%2C90%20do%20e-book%20Tecnologia%20Sem%20Complicação%20Após%20os%2050.%20Segue%20o%20comprovante."
+       target="_blank">
+      ENVIAR COMPROVANTE PELO WHATSAPP
+    </a>
+
+  </section>
+
+  <section class="aviso">
+
+    <h2>A tecnologia não precisa continuar complicada.</h2>
+
+    <p>
+      Aprenda uma coisa de cada vez, no seu ritmo, e tenha um guia
+      para consultar sempre que precisar.
+    </p>
+
+    <a class="botao-compra" href="#comprar">
+      QUERO COMEÇAR AGORA POR R$ 9,90
+    </a>
 
   </section>
 
